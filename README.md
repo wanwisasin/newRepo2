@@ -1,0 +1,165 @@
+Markdown cheatsheet<a name="Top"></a>
+===================
+----
+# Heading 1 #
+ 
+    Markup : # Heading 1 #
+ 
+    -OR-
+ 
+    Markup : ============= (below H1 text)
+ 
+## Heading 2 ##
+ 
+    Markup : ## Heading 2 ##
+ 
+    -OR-
+ 
+    Markup : ------------- (below H1 text)
+ 
+### Heading 3 ###
+ 
+    Markup : ### Heading 3 ###
+ 
+Common text
+ 
+    Markup : Common text
+ 
+_Emphasize text_
+ 
+    Markup : _Emphasize text_ or *Emphasize text*
+ 
+~~Strikethrough text~~
+ 
+    Markup : ~~Strikethrough text~~
+ 
+__Strong text__
+ 
+    Markup : __Strong text__ or **Strong text**
+ 
+__Strong emphasized text__
+ 
+    Markup : __Strong emphasized text__ or ***Strong emphasized text__***
+ 
+[Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http:/example.com/>
+ 
+    Markup : [Named Link](http://www.google.fr/ "Named link title")
+    and http://www.google.fr/ or <http:/example.com/>
+ 
+[heading-1](#heading-1 "Goto heading-1")
+ 
+    Markup : [heading-1](#heading-1 "Goto heading-1")
+ 
+Table, like this one :
+ 
+First Header  | Second Header
+------------- | --------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+ 
+```
+First Header  | Second Header
+------------- | --------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+```
+ 
+ 
+`code()`
+ 
+ 
+    Markup : `code()`
+ 
+```javascript
+    var specificLanguage_code =
+    {
+        "data": {
+            "lookedUpPlatform": 1,
+            "query": "Kasabian+Transmission",
+            "lookedUpItem": {
+                "name": "Test Transmission",
+                "artist": "Kasabian",
+                "album": "Kasabian",
+                "picture": null,
+                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSC0crTp"          
+            }
+        }
+    }
+```
+ 
+    Markup : ```javascript
+             ```
+ 
+ 
+* Bullet list
+    * Nested bullet
+        * Sub-nested bulled etc
+ 
+* Bullet list item 2
+1. A numbered list
+    1. A nested numbered list
+    2. Which is numbered
+2. Which is numbered
+ 
+- [ ] An uncompleted task
+- [x] A completed task
+ 
+> Blockquote
+>> Nested blockquote
+ 
+Foldable text:
+ 
+<details>
+    <summary>Title 1</summary>
+    <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+</details>
+<details>
+    <summary>Title 2</summary>
+    <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
+</details>
+ 
+```html
+<h3>HTML</h3>
+<p> Some HTML code here </p>
+```
+ 
+```
+Link to a specific part of the page:
+ 
+[Go To TOP](#TOP)
+ 
+Hotkey:
+ 
+<kbd>⌘F</kbd>
+ 
+<kbd>⇧⌘F</kbd>
+ 
+    Mark : <kbd>⌘F</kbd>
+ 
+Hotkey list:
+ 
+| Key | Symbol |
+| --- | ---|
+| Option | ⌥ |
+| Control | ^ |
+| Command | ⌘ |
+| Shift | ⇧ |
+| Caps Lock | ⇪ |
+| Tap | ⇥ |
+| Esc | ⎋ |
+| Power | Φ |
+| Return | ↩ |
+| Delete | ⌫ |
+| Up | ↑ |
+| Down | ↓ |
+| Left | ← |
+| Right | → |
+ 
+Emoji:
+ 
+:exclamtion: Use emoji icon to enhance text. :+1: Lookup emoji codes at
+[emoji-cheat-seet.com](http://emoji-cheat-sheet.com/)
+ 
+    Matkup : Code appears between colons :EMOJICODE:
+ 
+:mark:
